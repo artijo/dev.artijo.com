@@ -52,7 +52,7 @@ const siteConfig: SiteConfig = {
         },
         {
             text: 'Posts',
-            href: '/posts'
+            href: '/post'
         },
         {
             text: 'Tags',
