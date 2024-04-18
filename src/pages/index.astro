@@ -8,7 +8,7 @@ import siteConfig from '../data/site-config';
 import { sortItemsByDateDesc } from '../utils/data-utils';
 
 const posts = (await getCollection('posts')).sort(sortItemsByDateDesc);
-const featuredPosts = posts.filter(({ data }) => data.isFeatured);
+const featuredPosts = posts.slice(0, 3);
 ---
 
 <BaseLayout description={siteConfig.description} image={siteConfig.image}>
