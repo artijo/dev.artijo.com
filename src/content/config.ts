@@ -13,9 +13,10 @@ const seoSchema = z.object({
 });
 
 const posts = defineCollection({
-    schema: z.object({
+    schema: ({image}) => z.object({
         title: z.string(),
         excerpt: z.string().optional(),
+        cover: image().optional(),
         publishDate: z.coerce.date(),
         updatedDate: z.coerce.date().optional(),
         isFeatured: z.boolean().default(false),

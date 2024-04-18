@@ -5,13 +5,12 @@ publishDate: 'Mar 20 2024'
 tags:
   - Astro
   - Web
+cover: ../img/Astrolight.jpg
 seo:
   image:
-    src: '/images/Astrolight.jpg'
+    src: '../img/Astrolight.jpg'
     alt: Astro to build
 ---
-
-![Astrolight](/images/Astrolight.jpg)
 
 <!-- **Note:** This post was created using Chat GPT to demonstrate the features of the _[Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/)_. -->
 

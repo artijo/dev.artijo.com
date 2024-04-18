@@ -6,13 +6,12 @@ tags:
   - Web
   - Analytics
   - Umami
+cover: '../img/umami.jpg'
 seo:
   image:
-    src: '/images/umami.jpg'
+    src: '../img/umami.jpg'
     alt: Umami Preview
 ---
-
-![Umami Preview](/images/umami.jpg)
 
 หลายคนคงคุ้นเคยกับเครื่องมือเก็บสถิติการเข้าชมเว็บไซต์อย่าง Google Analytics แต่ด้วยกระแสความเป็นส่วนตัวที่ผู้ใช้ให้ความสำคัญมากขึ้น เครื่องมือเก็บสถิติที่เน้นความเป็นส่วนตัวจึงเริ่มเป็นที่นิยม
 
